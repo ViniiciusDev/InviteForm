@@ -1,0 +1,31 @@
+aside {
+    position: fixed;
+    border-radius: .75rem;
+    margin: 1.25rem;
+    max-width: 25rem;
+    height: 100vh;
+    background-image: url(../assets/Background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .aside-heading {
+        padding: 2rem;
+
+        .logo {
+            width: 2.86rem;
+            height: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .title {
+            font: var(--font-logo);
+            color: var(--pink);
+            margin-bottom: .25rem;
+        }
+
+        .description {
+            font: var(--font-body-md);
+            color: var(--text-highlight);
+        }
+    }
+}
