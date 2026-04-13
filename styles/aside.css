@@ -1,9 +1,9 @@
 aside {
     position: fixed;
-    border-radius: .75rem;
+    border-radius: .75rem .75rem;
     margin: 1.25rem;
-    max-width: 25rem;
-    height: 100vh;
+    min-width: 25rem;
+    min-height: 100vh;
     background-image: url(../assets/Background.png);
     background-size: contain;
     background-repeat: no-repeat;
